@@ -12,7 +12,7 @@ npm install node-fetch whois-json validator
 nano suspicious-url-checker.js
 ```
 
-Take script from Script file right under README.md
+Take script from Script file right above README.md
 And Save script as suspicious-url-checker.js
 
 ## Run Project
