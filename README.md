@@ -2,10 +2,11 @@
 This repo will breakthrough and tells you what this does
 
 ## 🚀 Install tools in linux
+```
 sudo apt update;
 sudo apt install nodejs npm -y;
 npm install node-fetch whois-json validator;
-
+```
 ## Script
 ```
 nano suspicious-url-checker.js
