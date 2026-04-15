@@ -48,10 +48,12 @@ async function checkURL(url) {
 
   // Output
   if (suspicious.length === 0) {
-    console.log("✅ URL appears safe (no obvious red flags).");
+    console.log("🎉 Yeah, It’s Safe ✅");
   } else {
     console.log("⚠️ Suspicious indicators found:");
-    suspicious.forEach(reason => console.log(" - " + reason));
+    suspicious.forEach((reason, index) => {
+      console.log(` ${index + 1}. ${reason}`);
+    });
   }
 }
 
