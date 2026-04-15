@@ -2,9 +2,9 @@
 This repo will breakthrough and tells you what this does
 
 ## 🚀 Install tools in linux
-sudo apt update
-sudo apt install nodejs npm -y
-npm install node-fetch whois-json validator
+sudo apt update;
+sudo apt install nodejs npm -y;
+npm install node-fetch whois-json validator;
 
 Deliverables
 Minimal Script (suspicious-url-checker.js)
