@@ -38,12 +38,12 @@ async function checkURL(url) {
     suspicious.push("WHOIS lookup failed");
   }
 
-  // Optional fetch headers
+  // Optional fetch headers (refined)
   try {
-    const res = await fetch(url, { method: 'HEAD', timeout: 5000 });
+    const res = await fetch(url, { method: 'HEAD', timeout: 10000 });
     if (!res.ok) suspicious.push(`Fetch returned status ${res.status}`);
   } catch {
-    suspicious.push("Fetch failed or timed out");
+    console.log("ℹ️ Could not verify via fetch (timeout or blocked). Not necessarily suspicious.");
   }
 
   // Output
