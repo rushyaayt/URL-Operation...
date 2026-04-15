@@ -17,5 +17,5 @@ And Save script as suspicious-url-checker.js
 
 ## Run Project
 ```
-node suspicious-url-checker.js https://suspicious-example.com
+node suspicious-url-checker.js https://github.com/
 ```
