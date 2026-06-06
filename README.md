@@ -7,14 +7,6 @@ sudo apt update
 sudo apt install nodejs npm -y
 npm install node-fetch whois-json validator
 ```
-## Script
-```
-nano suspicious-url-checker.js
-```
-
-Take script from Script file right above README.md
-And Save script as suspicious-url-checker.js
-
 ## Run Project
 You can change the url just instead of https://github.com/ into https://youtube.com/
 ```
